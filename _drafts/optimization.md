@@ -94,6 +94,15 @@ Tainting of GDP (increased healthcare costs, increased sickness, increased crime
 - Logical case for non-optimization-based processes 
 - The view that there exists an optimal solution, and it is just a matter of finding it or recognizing we might not have the computational resources to find it, might not even be the right mental model for most of the complex problems we have
 
+## Fallacy of The Most Good for The Most People
+
+This argument has been used to justify a lot of atrocities in history. Is a large amount of superficial good for a large number of people enough to justify a deep suffering of a smaller number of people? Or should the right paradigm be More good for any group of people as long as it doesn't add to the suffering of any other group of people (or more strongly doesn't neglect the more urgent good of the oppressed?)
+
+- [Does the Philosophy of “the Greatest Good for the Greatest Number” Have Any Merit? Michael Shermer 2018](https://www.scientificamerican.com/article/does-the-philosophy-of-the-greatest-good-for-the-greatest-number-have-any-merit/)
+- [Pinchot and Utilitarianism](https://www.fs.usda.gov/greatestgood/press/mediakit/facts/pinchot.shtml)
+
+
+
 ## Alternative paradigms
 
 - Satisficing paradigm where we look at a bunch of metrics and focus on directions that aren't doing so well (not satisfactory)
@@ -152,9 +161,11 @@ This article is inspired by Kenneth Stanley’s book, “Why greatness cannot be
 
 # Optimization: an ill-defined process
 
-Even though language allows us to propose “Let’s optimize that” in any context (including when speaking of the optimization algorithms themselves), such proposals may not make logical sense. To understand this, let us discuss where our instinct to optimize comes from. The usual picture in our mind, when we think of optimization is a 2d landscape of possible strategies / solution, and the third dimension (height) measuring the ‘goodness’ of a solution. Picture a vast landscape with hills of different heights as far as the eye can see. Now add a layer of fog, so that we can only see the gradients right below us. The goal is to walk to the top of the tallest mountain.
+Even though language allows us to propose “Let’s optimize that” in any context, such proposals may not always make logical sense (e.g: the problem may not satisfy the requirements of a well-posed optimization problem). 
 
-Picture 1 and 2D versions
+
+
+To understand this, let us discuss where our instinct to optimize comes from. The usual picture in our mind, when we think of optimization is a graph with the x-axis plotting the possible strategies, and y-axis measuring the ‘goodness’ of a solution. The strategies are sometimes also depicted as lying in a 2D landscape with the height of this landscape measuring the goodness of the solution. Often, the full landscape is not visible to us. Picture a vast landscape with hills of different heights as far as the eye can see. Now a.dd a layer of fog, so that we can only see the gradients right below us. The goal is to walk to the top of the tallest mountain.
 
 There are several things that don’t carry over from this picture to real world optimization problems,
 
@@ -204,7 +215,7 @@ Complex systems are those that not only have a large number of parts but also a 
 
 ## What is the strongest animal? (possibly in the Appendix)
 
-Is this a well-defined question? To make progress we have to make assumptions. For starters, let us consider the question, “Which animal can move the most mass?”. Elephants come to mind. However, we all know per body weight, ants can carry way more mass than elephants. If the final goal is to move a bunch of sand, we can accomplish that with an army of ants far less massive than a single elephant. However, is it really that impressive that an ant can carry 50 times its weight? Ecological scaling theory says all small animals will be strong in this sense, since they have a higher surface area to volume ratio. The surface area gives us a rough estimate of how much cross-sectional space there is to dedicate to structural integrity, whereas the volume gives us the raw weight of the animal. An elephant is at a clear disadvantage having so much bulk compared to the potential cross section of its bones. All tiny insects like ants can carry a lot of weight compared to their own body weight. An astute reader would now say “Let’s first remove the mass-specific trend, and then see which animal stands out”. We may find out that a leopard is particularly strong given its peers of the same body weight. But then, there may be a sequence of other traits that give the leopard that edge, just as having a high surface-area-to-volume ratio gave the ant an edge over the elephant. We may be splitting hairs here. The main point of this exercise is that
+Is this a well-defined question? To make progress we have to make assumptions. For starters, let us consider the question, “Which animal can move the most mass?”. Elephants come to mind. However, we all know per body weight, ants can carry way more mass than elephants. If the final goal is to move a bunch of sand, we can accomplish that with an army of ants far less massive than a single elephant. However, is it really that impressive that an ant can carry 50 times its weight? Ecological scaling theory says all small animals will be strong in this sense, since they have a higher surface area to volume ratio. The surface area gives us a rough estimate of how much cross-sectional space there is to dedicate to structural integrity, whereas the volume gives us the raw weight of the animal. An elephant is at a clear disadvantage having so much bulk compared to the potential cross section of its bones. All tiny insects like ants can carry a lot of weight compared to their own body weight. An astute reader would now say “Let’s first remove the mass-specific trend, and then see which animal stands out”. We may find out that a leopard is particularly strong given its peers of the same body weight. But then, there may be a sequence of other traits that give the leopard that edge, just as having a high surface-area-to-volume ratio gave the ant an edge over the elephant. We may be splitting hairs here. These types of questions are routinely dealt with by the Olympics committee trying to decide on the *fairness* of competitions (e.g: a debate on Trans-athletes has been trending the recent years. Here is a [video discussion on this](https://www.youtube.com/watch?v=cZ9YAFYIBOU))
 
 ## We always have unknowns
 
