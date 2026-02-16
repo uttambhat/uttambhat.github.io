@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Before we dive in, please think of your last project, a business venture, or a problem in society, where the goal was to achieve *something*. Write down the broad steps that you would take. It is likely that it resembles the following,
+Before we dive in, think of your last project, a business venture, or a problem in society, where the goal was to achieve *something*. Write down the broad steps that you would take. It is likely that it resembles the following,
 
 1. Decide on an observation or measurement that quantifies the progress
 2. Brainstorm for ideas, identify the causal variables, and strategies to change them. This is usually the hardest part
@@ -13,21 +13,21 @@ Before we dive in, please think of your last project, a business venture, or a p
 The paradigm described above is dominant in many quantitative fields, and recently making headway into historically qualitative fields. For example, we try to
 
 - improve an economy by trying to optimize policies to attain maximum GDP growth,
-- improve ocean ecosystems by optimizing harvest management policies, 
-- improve business outcomes by optimizing resourcing, optimize supply-chain processes, routing of trucks or airplanes, 
-- or even try to optimize life decisions like buying a house, choosing jobs etc. (Echo chamber alert: the last example would be overrepresented in my bubble here in the Silicon Valley!)
+- improve ocean ecosystems by optimizing harvest management policies to minimize the probability of extinctions
+- improve business outcomes by optimizing resourcing, optimize supply-chain processes, routing of trucks or airplanes, to maximize profits
+- or even try to optimize life decisions like buying a house, choosing jobs etc. What is the metric here? What is the space of strategies? (Echo chamber alert: the last example would be overrepresented in my bubble here in the Silicon Valley!)
 
 We can see this in the usage of the word "optimization" in books,
 
 ![image-20260130182629735](/assets/Google_ngram_optimization.png)
 
-Optimization, a paradigm that became popular through the [new field of Operations research during the second world war](https://www.britannica.com/topic/operations-research/History) was rapidly adopted by an increasing number of fields. From the [Encyclopedia Britannica article](https://www.britannica.com/topic/operations-research/Essential-characteristics),
+Optimization, a paradigm that became popular through the [new field of Operations research during the second world war](https://www.britannica.com/topic/operations-research/History) was rapidly adopted by an increasing number of fields. From the [Encyclopedia Britannica article on Operations Research](https://www.britannica.com/topic/operations-research/Essential-characteristics),
 
-*To formulate an operations research problem, a suitable measure of performance must be devised, various possible courses of action defined (that is, controlled*[ *variables*](https://www.britannica.com/topic/variable-mathematics-and-logic) *and the constraints upon them), and relevant uncontrolled variables identified. To*[ *devise*](https://www.britannica.com/dictionary/devise) *a measure of performance, objectives are identified and defined, and then quantified.*
+*To formulate an operations research problem, a suitable measure of performance must be devised, various possible courses of action defined (that is, controlled*[ *variables*](https://www.britannica.com/topic/variable-mathematics-and-logic) *and the constraints upon them), and relevant uncontrolled variables identified. To*[ *devise*](https://www.britannica.com/dictionary/devise) *a measure of performance, objectives are identified and defined, and then quantified.* 
 
-This topic is close to my heart, since I studied stochastic optimization during my PhD. I initially studied simple scenarios such as optimizing [finding a target at an unknown location](https://arxiv.org/pdf/1605.08812.pdf), and later applying the framework to understand ecological processes such as [animals foraging for food](https://link.aps.org/accepted/10.1103/PhysRevE.95.062119) or the [effect of random distributions of food on evolutionary pathways](https://www.pnas.org/doi/full/10.1073/pnas.1907998117). Even then, I remember being bothered by how constrained the framework is. It is only possible to find the optimum strategy (or even define what optimum was) only in the simplest of situations. Adding any real-world complexity would make the space of strategies intractably difficult. Don’t get me wrong, mathematicians, physicists (and other quantitative folks) have come up with incredibly sophisticated tools to tackle really hard optimization problems. But these tools pale in comparison with the complexity of the real world. (In fact [ecological / biological fitness is really hard to define](https://www.bio.vu.nl/thb/course/ecol/MetzNisb92.pdf) contrary to popular discussions of “survival-of-the-fittest”. [A classic example from evolutionary biology](https://www.science.org/doi/abs/10.1126/science.186.4164.645) shows that even in simple single-species models of population dynamics, increasing reproduction rate (a popular proxy for fitness) can actually make a population more unstable and prone to extinction. If this reminds you of the “[butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)”, you are right! It is common to see chaos (small changes in one variable lead to large and diverging changes in another variable) and, critical phenomena (behavior changes suddenly instead of gradually) in real world complex systems (in fact, the more variables in a system, the [more likely the system is chaotic](https://academic.oup.com/icesjms/article/77/4/1463/5643857). Add to that the complexity due to the sheer number of components in any system, (interactions between millions and billions of people, billions of living organisms, countless physical entities etc.), and it is almost miraculous that we sometimes see simple patterns emerge!
+This topic is close to my heart, since I studied stochastic optimization during my PhD. I initially studied simple scenarios such as optimizing [finding a target at an unknown location](https://arxiv.org/pdf/1605.08812.pdf), and later applying the framework to understand ecological processes such as [animals foraging for food](https://link.aps.org/accepted/10.1103/PhysRevE.95.062119) or the [effect of random distributions of food on evolutionary pathways](https://www.pnas.org/doi/full/10.1073/pnas.1907998117). Even back then, I remember being bothered by how constrained the framework is. It is only possible to find the optimum strategy (or even define what optimum was) only in the simplest of situations. Adding any real-world complexity would make the space of strategies intractably difficult. Don’t get me wrong, mathematicians, physicists (and other quantitative folks) have come up with incredibly sophisticated tools to tackle really hard optimization problems. But these tools pale in comparison with the complexity of the real world. (In fact [ecological / biological fitness is really hard to define](https://www.bio.vu.nl/thb/course/ecol/MetzNisb92.pdf) contrary to popular discussions of “survival-of-the-fittest”. [A classic example from evolutionary biology](https://www.science.org/doi/abs/10.1126/science.186.4164.645) shows that even in simple single-species models of population dynamics, increasing reproduction rate (a popular proxy for fitness) can actually make a population more unstable and prone to extinction. If this reminds you of the “[butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)”, you are right! It is common to see chaos (small changes in one variable lead to large and diverging changes in another variable) and, critical phenomena (behavior changes suddenly instead of gradually) in real world complex systems (in fact, the more variables in a system, the [more likely the system is chaotic](https://academic.oup.com/icesjms/article/77/4/1463/5643857). Add to that the complexity due to the sheer number of components in any system, (interactions between millions and billions of people, billions of living organisms, countless physical entities etc.), and it is almost miraculous that we sometimes see simple patterns emerge!
 
-The role of setting objectives and working towards them by regularly checking our progress using metrics and heuristics is ubiquitous. This has come to be the dominant paradigm In many spheres of our lives. For example, to learn a new skill, say playing the guitar - we first set the objective, then measure progress (e.g: number of chords or songs learnt) and try to maximize this metric. Or if we want to move up in our career, we set the objective (say to be a director in your company), then measure your progress while you are working towards this goal. Need better examples
+Setting objectives and metrics to gauge progress is ubiquitous. This has come to be the dominant paradigm in many spheres of our lives. For example, to improve student outcomes, it is common to track the average grades or fraction of the class that gets a passing grade (note the significant difference between these two ways of tracking student outcomes). To measure the utility of an app, it is common to measure engagement (daily active users, average weekly hours of engagement).
 
 As a society we are obsessed with “optimizing” everything. This is especially true among people with a background in the sciences, engineering, business etc. The lack of a powerful alternative to objectives-and-optimization thinking leads us to dismiss bad outcomes from optimization (as well as good outcomes from non-optimization processes) as exceptions .
 
@@ -35,18 +35,18 @@ Today we see the optimization paradigm applied in increasing number of fields, a
 
 ## Optimization - an ill-defined process 
 
-Given all the complexity in nature and human societies, let us now discuss where the process of optimization fits in. In simple terms, the process of optimization is identifying the variables we control, and twiddling them to reach the best outcome. To do this we require a few ingredients
+In simple terms, the process of optimization is identifying the variables we control, and twiddling them to reach the best outcome. To do this we require a few necessary ingredients
 
 - A metric that summarizes the goodness of a solution, and more importantly, that allows comparing one solution to another
 - A space of possible solutions, usually denoted by the variables (allotment of resources, potential routes, quantities of ingredients in a recipe etc.)
 
 On the face of it, this seems fairly general. However, as we’ll see below the process of casting most real world problems into this framework requires many more simplifying assumptions.
 
-- Visualization (1d and 2d landscape)
+## Problem of metrics 
 
-## Problem of one-dimensional or low dimensional metrics 
+ The first step in any optimization exercise is to define a metric (also called objective function, fitness function, loss function etc). It assigns a numeric score for every possible outcome. Already, you maybe thinking, "who decides this metric?" or even "is it possible to have a single number that defines the goodness of solution?" For example, imagine you are a policy maker working to improve quality of life of people in our society. Every person might have a different notion of what matters to improve quality of life. Usually the agreed-upon metric is the common denominator like longevity. However, living a long life fraught with stress, economic uncertainty etc is not exactly a quality life.
 
- The first step in any optimization exercise is to define a metric (also called objective function, fitness function, loss function etc). It assigns a numeric score for every possible outcome. The metric may measured (or calculated from a set of measurements) or may be calculated from the outputs of a model that describes the scenario. Gross Domestic Product or GDP measured in units of a currency is famously used to evaluate the economy of a country. Number of citations is a metric used to quantity the impact of a scientific paper.
+ Gross Domestic Product or GDP measured in units of a currency is famously used to evaluate the economy of a country. Number of citations is a metric used to quantity the impact of a scientific paper.
 
 - (Tyranny of metrics ref)
 - Utility function in economics (reference to research on insufficiency of one dimensional utility metric)
@@ -60,29 +60,21 @@ reproduces the observed dynamics. The action function in some sense stores all t
 
 ## Gaming metrics
 
-### Goodhart’s law, Campbell’s law
+### Campbell’s law (similarly Goodhart’s law)
 
-The reader may have experienced that often we actively need to ignore the metric to do a good job at something. E.g: if the metric is number of deliverables delivered, we rely heavily on an internal standard that each deliverable is done well. Without such a standard sticking to the metric will just result in a lot of frequently delivered shoddy work! This is so widespread, there are multiple adages ([Campbell's law](https://en.wikipedia.org/wiki/Campbell's_law), [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart's_law), [Cobra effect](https://en.wikipedia.org/wiki/Perverse_incentive)). Tyranny of metrics has multiple examples of this happening in practice.
+Donald Campbell, a sociologist, is credited to stating,
+
+*The more any quantitative social indicator is used for social decision-making, the more subject it will be to  corruption pressures and the more apt it will be to distort and corrupt  the social processes it is intended to monitor.*
+
+Tyranny of metrics has multiple examples of this happening in practice.
 
 ### P-hacking
-
-### Profit and Stock price metrics
-
-Optimizing for profit leads to deterioration of everything else, working conditions, health of competition, quality of products they produce (link references)
 
 ### GDP
 
 Tainting of GDP (increased healthcare costs, increased sickness, increased crime and number of lawyers, increased real estate costs, increased financialization, all increase GDP without increasing any real products or services)
 
-## Traps
-
-### Rugged landscape
-
-### Bounded rationality / compute
-
-### Forecast trap
-
-### No free lunch theorem 
+### 
 
 # Discussion
 
@@ -143,19 +135,8 @@ Anyone interested to collaborate on follow up projects contact me at [uttam@duck
 - The forecast trap - Boettiger 2022
 - GDP
 - When McKinsey comes to town
-- Others
-  - Messy - Tim Hartford
-  - Utopia of rules - Graeber
-  - Michael Sandel - Morality of markets, and Tyranny of merit
-  - Jenny Odell - how to do nothing 
-
-Older material / notes etc.
-
-# Introduction
-
-This is (hopefully) the first among a series of articles that dig deep into some mainstream paradigms by studying the assumptions that go into these frameworks / models, and explore alternatives. In this article we explore Optimization.
-
-This article is inspired by Kenneth Stanley’s book, “Why greatness cannot be planned: the myth of the objective” and 
+- Jenny Odell - how to do nothing
+- C. Thi Nguyen - The Score
 
 
 
@@ -201,18 +182,6 @@ https://arxiv.org/pdf/2110.09485.pdf
 
 https://www.wired.com/story/a-mathematicians-guided-tour-through-higher-dimensions/
 
-## Problem of extrapolation
-
-Example from Tyranny of merit by Sandel, Chinese student saying it is okay that the rich and buy kidneys from the poor since they earned the money and so the right to live longer. Extrapolation issue here is that at reasonable income levels it maybe possible that hard work and "merit" deservingly leads to more income, but at the extremes it is rarely the case if at all.
-
-We extrapolate and analogize constantly. But these are rarely iron-clad logic and often wrong.
-
-## Complex systems
-
-Complex systems studies have brought rich new vocabulary and phenomena.
-
-Complex systems are those that not only have a large number of parts but also a emergent structure at multiple scales (e.g: a box of gas has many atoms but no emergent structure, an ecosystem on the other hand is a really complex system). New phenomena of dynamic fitness landscapes etc etc
-
 ## What is the strongest animal? (possibly in the Appendix)
 
 Is this a well-defined question? To make progress we have to make assumptions. For starters, let us consider the question, “Which animal can move the most mass?”. Elephants come to mind. However, we all know per body weight, ants can carry way more mass than elephants. If the final goal is to move a bunch of sand, we can accomplish that with an army of ants far less massive than a single elephant. However, is it really that impressive that an ant can carry 50 times its weight? Ecological scaling theory says all small animals will be strong in this sense, since they have a higher surface area to volume ratio. The surface area gives us a rough estimate of how much cross-sectional space there is to dedicate to structural integrity, whereas the volume gives us the raw weight of the animal. An elephant is at a clear disadvantage having so much bulk compared to the potential cross section of its bones. All tiny insects like ants can carry a lot of weight compared to their own body weight. An astute reader would now say “Let’s first remove the mass-specific trend, and then see which animal stands out”. We may find out that a leopard is particularly strong given its peers of the same body weight. But then, there may be a sequence of other traits that give the leopard that edge, just as having a high surface-area-to-volume ratio gave the ant an edge over the elephant. We may be splitting hairs here. These types of questions are routinely dealt with by the Olympics committee trying to decide on the *fairness* of competitions (e.g: a debate on Trans-athletes has been trending the recent years. Here is a [video discussion on this](https://www.youtube.com/watch?v=cZ9YAFYIBOU))
@@ -227,6 +196,17 @@ The unmeasurable will be neglected in our optimization rituals.
 
 - Satisficing
 - Exploration
+- Observation and Perception
 - Negotiation
 - Tinkering
 - Learning
+
+## Traps
+
+### Rugged landscape
+
+### Bounded rationality / compute
+
+### Forecast trap
+
+### No free lunch theorem 
