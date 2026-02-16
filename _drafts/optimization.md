@@ -21,6 +21,8 @@ We can see this in the usage of the word "optimization" in books,
 
 ![image-20260130182629735](/assets/Google_ngram_optimization.png)
 
+## History
+
 Optimization, a paradigm that became popular through the [new field of Operations research during the second world war](https://www.britannica.com/topic/operations-research/History) was rapidly adopted by an increasing number of fields. From the [Encyclopedia Britannica article on Operations Research](https://www.britannica.com/topic/operations-research/Essential-characteristics),
 
 *To formulate an operations research problem, a suitable measure of performance must be devised, various possible courses of action defined (that is, controlled*[ *variables*](https://www.britannica.com/topic/variable-mathematics-and-logic) *and the constraints upon them), and relevant uncontrolled variables identified. To*[ *devise*](https://www.britannica.com/dictionary/devise) *a measure of performance, objectives are identified and defined, and then quantified.* 
@@ -74,11 +76,15 @@ Tyranny of metrics has multiple examples of this happening in practice.
 
 Tainting of GDP (increased healthcare costs, increased sickness, increased crime and number of lawyers, increased real estate costs, increased financialization, all increase GDP without increasing any real products or services)
 
-### 
+## We always have unknowns
+
+Optimization is always carried out within models, and we know models always miss lots of things. Models are far from perfect. Optimizing too much within a model will only make us worse in the dimensions that aren’t modeled. E.g. no metric for the importance of community, so we pay less attention to the importance of community in our models
+
+The unmeasurable will be neglected in our optimization rituals.
 
 # Discussion
 
-## Potential costs of wrongly using the optimization paradigm 
+## Costs of wrongly using the optimization paradigm 
 
 - Relying on simple models and optimizing the parameters in a complex scenario can not only give a false sense of control but actively harm progress by wrongly giving credibility to the generalist quantitative types over people with experience and subjective expertise in the domain
 - The unmeasurable will be neglected in our optimization rituals.
@@ -97,7 +103,7 @@ This argument has been used to justify a lot of atrocities in history. Is a larg
 
 ## Alternative paradigms
 
-- Satisficing paradigm where we look at a bunch of metrics and focus on directions that aren't doing so well (not satisfactory)
+- Satisficing paradigm where we look at a bunch of metrics and focus on directions that aren't satisfactory
 - Exploration 
   - Exploration let's us feel-out new scenarios previously unimaginable and hence outside our optimization models
   - We should actively invest in exploration, there is no "optimal" amount, trying to estimate that is foolish, different investments will lead to different trajectories not comparable with each other
@@ -108,43 +114,22 @@ This argument has been used to justify a lot of atrocities in history. Is a larg
   - This is probably the most important paradigm in a society which values every human being (e.g: in a working democracy XD), EXPAND ON THIS
 - Optimization with uncertain gradients (infotaxis and the other paper Sid mentioned)
 - Search without gradients (we-know-when-we-find-it searches, finding your keys, stochastic search, foraging etc.)
-- 
-
-Anyone interested to collaborate on follow up projects contact me at [uttam@duck.com](mailto:uttam@duck.com)
-
-## Digressions / Case studies / follow-up questions: 
-
-- a large class of dynamics can be recast as optimizing some action function (utility function?) At the same time there are valid logical preferences that can't be modeled with a single dimension utility, how do we square this with the earlier point?
-- Do extremely simple business "models" (usually linear regression extrapolation based on few variables), do better than subjective decisions? This is an empirical question. Daniel Kahneman demonstrated in psychological evaluations assigning a simple formula does work better than purely subjective evaluation. Our foraging models show otherwise, one tiny change in assumption can make the best policy the worst one. But the business case does remain an empirical question
-
-## Other digressions
-
-- Against techno-ablism - Ashley Shu (Disability podcast factually)
-  - Why do we need to slow down and not optimize all the time. It allows a larger set of people to discover their capabilities, exploration. It is completely wrong that some people are more capable from others, because this set has changed enormously over time. Capability comes from not from specific structures of our bodies, mind or genetics but from the astronomical complexities of our brain and biology etc, degrees of freedom which can be used to creatively solve problems or explore ways to modify our environment in interesting ways. "Disabled* people have this just as much as abled people
-  - Wrong mental model: there is in theory the best human who is optimized in lots of things. In reality though "No free lunch theorem"
-- Other thoughts
-  - In biology, high rates of change or mutation causes cancer, we may even argue that some of the biggest corporations in the world are cancerous tumors brought about by rapid growth!
+- Observation and Perception
+- Learning
 
 # References
 
 - Stanley - Myth of the objective
 - Tyranny of metrics
 - Vergassola Infotaxis
-- P-hacking, GDP, capitalism as an optimizer
-- No free lunch theorem
-- The forecast trap - Boettiger 2022
-- GDP
-- When McKinsey comes to town
 - Jenny Odell - how to do nothing
 - C. Thi Nguyen - The Score
 
+# Appendix
 
-
-# Optimization: an ill-defined process
+## Optimization: an ill-defined process
 
 Even though language allows us to propose “Let’s optimize that” in any context, such proposals may not always make logical sense (e.g: the problem may not satisfy the requirements of a well-posed optimization problem). 
-
-
 
 To understand this, let us discuss where our instinct to optimize comes from. The usual picture in our mind, when we think of optimization is a graph with the x-axis plotting the possible strategies, and y-axis measuring the ‘goodness’ of a solution. The strategies are sometimes also depicted as lying in a 2D landscape with the height of this landscape measuring the goodness of the solution. Often, the full landscape is not visible to us. Picture a vast landscape with hills of different heights as far as the eye can see. Now a.dd a layer of fog, so that we can only see the gradients right below us. The goal is to walk to the top of the tallest mountain.
 
@@ -186,27 +171,4 @@ https://www.wired.com/story/a-mathematicians-guided-tour-through-higher-dimensio
 
 Is this a well-defined question? To make progress we have to make assumptions. For starters, let us consider the question, “Which animal can move the most mass?”. Elephants come to mind. However, we all know per body weight, ants can carry way more mass than elephants. If the final goal is to move a bunch of sand, we can accomplish that with an army of ants far less massive than a single elephant. However, is it really that impressive that an ant can carry 50 times its weight? Ecological scaling theory says all small animals will be strong in this sense, since they have a higher surface area to volume ratio. The surface area gives us a rough estimate of how much cross-sectional space there is to dedicate to structural integrity, whereas the volume gives us the raw weight of the animal. An elephant is at a clear disadvantage having so much bulk compared to the potential cross section of its bones. All tiny insects like ants can carry a lot of weight compared to their own body weight. An astute reader would now say “Let’s first remove the mass-specific trend, and then see which animal stands out”. We may find out that a leopard is particularly strong given its peers of the same body weight. But then, there may be a sequence of other traits that give the leopard that edge, just as having a high surface-area-to-volume ratio gave the ant an edge over the elephant. We may be splitting hairs here. These types of questions are routinely dealt with by the Olympics committee trying to decide on the *fairness* of competitions (e.g: a debate on Trans-athletes has been trending the recent years. Here is a [video discussion on this](https://www.youtube.com/watch?v=cZ9YAFYIBOU))
 
-## We always have unknowns
-
-Optimization is always carried out within models, and we know models always miss lots of things. Models are far from perfect. Optimizing too much within a model will only make us worse in the dimensions that aren’t modeled. E.g. no metric for the importance of community, so we pay less attention to the importance of community in our models
-
-The unmeasurable will be neglected in our optimization rituals.
-
-## Alternate Paradigms
-
-- Satisficing
-- Exploration
-- Observation and Perception
-- Negotiation
-- Tinkering
-- Learning
-
-## Traps
-
-### Rugged landscape
-
-### Bounded rationality / compute
-
-### Forecast trap
-
-### No free lunch theorem 
+### 
