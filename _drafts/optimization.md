@@ -50,15 +50,20 @@ On the face of it, this seems fairly general. However, as we’ll see below the 
 
  Gross Domestic Product or GDP measured in units of a currency is famously used to evaluate the economy of a country. Number of citations is a metric used to quantity the impact of a scientific paper.
 
-- (Tyranny of metrics ref)
-- Utility function in economics (reference to research on insufficiency of one dimensional utility metric)
-- Physics action principle - interestingly there is formulation of physics which is centered around a single quantity called the action function, optimizing which, 
-
-reproduces the observed dynamics. The action function in some sense stores all the necessary information to predict the evolution of a system. However the action function gets incredibly complicated even for microscopic systems with just hundreds of particles. So in some sense defending utilitarianism saying we just need to update the utility function is unfalsifiable and may lead us down an impractical path. There is also some new research on the insufficiency of a one dimensional utility function in capturing real world preferences that are perfectly logical.
-
 - Statistical metrics - which one to use? AUROC? Sensitivity, specificity?
 - Optimizing over distributions: optimize the worst case? Or average case? Most likely case?
-- Whose metric? Inequality / GDP issues
+
+In the book Tyranny of Metrics, they state that the three key components of metric fixation as the following three beliefs
+- it is possible and desirable to replace experience with numerical indicators based on standardized data 
+- making the metrics public / transparent assures accountability 
+- the best way to motivate people is to attach rewards and penalties to their measured performance 
+
+The book also outlines the recurring flaws
+
+- Measuring the easily measurable but not the most important 
+- measuring inputs rather than outcomes. E.g: measuring resources or person-hours spent
+- degrading information quality through standardization/ quantification simplifying and stripping away the context 
+- gaming - filtering for easy projects, lowering standards to improve the numbers 
 
 ## Gaming metrics
 
@@ -75,6 +80,10 @@ Tyranny of metrics has multiple examples of this happening in practice.
 ### GDP
 
 Tainting of GDP (increased healthcare costs, increased sickness, increased crime and number of lawyers, increased real estate costs, increased financialization, all increase GDP without increasing any real products or services)
+
+## Whose metric? 
+
+Inequality / GDP issues
 
 ## We always have unknowns
 
