@@ -2,6 +2,32 @@
 
 ## Introduction
 
+The modern world is awash with metrics, quantification, and optimization frameworks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Old version
+
+## Introduction
+
 Before we dive in, think of your last project, a business venture, or a problem in society, where the goal was to achieve *something*. Write down the broad steps that you would take. It is likely that it resembles the following,
 
 1. Decide on an observation or measurement that quantifies the progress
@@ -130,9 +156,89 @@ This argument has been used to justify a lot of atrocities in history. Is a larg
 
 - Stanley - Myth of the objective
 - Tyranny of metrics
-- Vergassola Infotaxis
 - Jenny Odell - how to do nothing
 - C. Thi Nguyen - The Score
+
+# Book Summaries
+
+## Stanley - Myth of the objective
+
+This book questions the ubiquitous status of setting objectives and optimizing and tries to paint an alternative paradigm.
+
+- Optimization is just a model
+
+- As a society we quietly moved from using the optimization framework to optimize something concrete and low-dimensional (like efficiency of a particular type of engine) to optimizing more vague and grand (extremely high-dimensional) problems in more abstract spaces (e.g: the idea space, 'optimize a company', 'optimize the markets' etc.)
+
+- Most optimization problems are ill-defined (but we can always ask the question, "Can we optimize that?"
+
+- **Basic requirements of optimization - one-dimensional metric, low dimensional finite strategy space, measurability, predictability of consequences of actions we haven't taken, static fitness landscapes, long data (instead of broad data)**
+  - one-dimensional metric: multi-dimensional metric - partially ordered sets
+  - static fitness landscapes: our actions change the fitness landscape (analogy with heisenberg uncertainty)
+  - predictability of consequences of actions we haven't taken
+
+- Our intuition is very poor in infinite spaces, and high-dimensional spaces with uncertainty
+
+- Currently, all the rational and logical arguments' might is behind the optimization framework. When artists and poets talk about exploring novelty, it is assumed to be a distraction. This book is part of building a logical framework for the alternative
+
+- This is a more radical point-of-view than the one in _Tyranny of metrics_
+
+- **Can take many locally optimal steps only to reach a globally shitty place**
+
+- the mental models we have directly reflects in the questions we ask, assumptions we make
+
+- **Our intuition for search and optimization comes directly from real space which is restricted to 1,2 and 3 dimensions**
+
+- Generally, our culture has a tendency to confuse models with reality 
+
+- when we are obsessed with optimization, we choose problems where the assumptions are satisfied (measurable etc.)
+
+- artificial precision, premature quantification
+
+- stochastic search, optimization - penalty tradeoff
+- optimal foraging - with every added detail, the optimal solution completely is in the opposite direction
+- whole field can be wrong - e.g. chaos in ecology (out of 700 papers, most were low-dimensional ODEs when that is a very narrow framework, and people are amazed when we talk of other ways to model things)
+
+
+- **To be clear, this book isn't against short term objectives or objectives to achieve something specific (e.g: say complete this task by tomorrow**
+
+
+
+## Tyranny of metrics
+
+Introduction
+- Doctors and police case study where introducing the metric led to gaming (not taking the harder cases to keep the stats high)
+
+1) The argument in a nutshell 
+
+- Key components of metrics fixation are the following three beliefs 
+	- it is possible and desirable to replace experience with numerical indicators based on standardized data 
+	- making the metrics public / transparent assures accountability 
+	- the best way to motivate people is to attach rewards and penalties to their measured performance 
+
+Most organizations have multiple purposes, focusing on some might come at a cost to others.
+Campbell’s law, Goodhart’s law
+
+The belief in efficacy of metrics seems to outlast evidence - feels like a cult. Metric fixation which aspires to resemble science, too often resembles faith.
+
+2) Recurring flaws
+
+- Measuring the easily measurable but not the most important 
+- measuring inputs rather than outcomes. E.g: measuring resources or person-hours spent
+- degrading information quality through standardization/ quantification simplifying and stripping away the context 
+- gaming - filtering for easy projects, lowering standards to improve the numbers 
+
+3. The origins of measuring and paying for performance
+
+Taylorism - organizing factory production inn companies like general motors, where sociologist Daniel bell noted that managerial planning and scheduling drew all brain power away from the shop and reinforced minds numbing routine for workers
+
+
+4. Why metrics became so popular
+
+## Jenny Odell - how to do nothing
+
+## C. Thi Nguyen - The Score
+
+
 
 # Appendix
 
