@@ -238,7 +238,22 @@ Taylorism - organizing factory production inn companies like general motors, whe
 
 ## C. Thi Nguyen - The Score
 
+### Part 1: Opening Moves
 
+**Chapter 1: Is This the Game You Really Want to Be Playing?**
+
+- A lot of the time we don't know the real reason we're doing something. For example: start climbing for fitness, then realize you just like the feeling of climbing on your body
+- Losing the joy of the activity from too much emphasis on the score
+- Thomas Hobbes: Ultimate power comes fro mthe ability to control language and define terms, especially of success. The power over definitions is stronger than military or economic power. Because if you can define what good and evil mean for people, if you can control what success and failure mean for them, then you can control them from the inside.
+- Games wake us to a life of play; metrics drive us down into grueling optimization. When external institutional system (rankings, metrics, measures) set our desires and goals, we call it *value capture*. It happens when,
+  - 1. Your values are rich and subtle
+    2. You enter some social (typically institutional) setting that offers you simplified, often quantified renditions of your values,
+    3. The simplified versions take over.
+  - Value capture happens when students top caring about education and start caring about their GPA, when scientists stop caring about finding truth and start caring about citations / biggest grants, when restaurant stops caring about making good food and starts caring about maximizing its Yelp ratings.
+- Reiner Knizia (prodigious game designer): the most important tool is the scoring system, because it *sets the player's motivations* in the game.
+- This is the peculiarity of games, they tell you what to desire. We can slip into alternate motivational states like a new set of clothes.
+- Often in games, the goal isn't what matters. We adopt the gbhoal to *experience the process*. The beauty is in the struggle. Call it the *striving play*. In striving play, you temporarily induce a desire to win, so you can enjoy the process of trying - an inversion of ordinary life where we struggle to attain a goal. Here we set a goal to attain a particular beautiful struggle!
+- 
 
 # Appendix
 
